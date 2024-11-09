@@ -1,24 +1,71 @@
+
+
 # Luxury Estate 
 
 ## Overview
-This project is a luxury estate information platform where users can explore various high-end properties for sale or rent. It includes a user authentication system, a detailed property listing page, and features AI-driven property recommendations. The application is built with a *ReactJS frontend, a **Node.js/Express.js backend, and a **MongoDB* database.
+This project is a luxury estate information platform that allows users to explore a variety of high-end properties available for sale or rent. The platform includes features like user authentication, detailed property listings, and AI-driven property recommendations. It is built with a ReactJS frontend, a Node.js/Express.js backend, and a MongoDB database.
 
 ## Features
-- *User Authentication*: Secure login and logout functionalities using JWT tokens.
-- *Property Listings*: Users can browse and search through a wide variety of luxury properties, with data fetched from a MongoDB database.
-- *Responsive Design*: Fully responsive layout that works across desktop, tablet, and mobile devices.
+- User Authentication: Secure login and logout functionality using JWT tokens.
+- Property Listings: Users can browse and search through luxury properties, with data fetched from a MongoDB database.
+- Responsive Design: A fully responsive layout that adapts to desktop, tablet, and mobile screens.
 
 ## Technologies Used
-- *Frontend*: 
-  - ReactJS
-  - Tailwind
-  
-- *Backend*: 
-  - Node.js
-  - Express.js
-  
-- *Database*: 
-  - MongoDB (MongoDB Atlas for cloud hosting)
-  
-- *Deployment*: 
-  - Hosted on [Vercel](https://xenonfe.vercel.app/) (frontend)
+- **Frontend**:  
+  - ReactJS  
+  - Tailwind CSS  
+
+- **Backend**:  
+  - Node.js  
+  - Express.js  
+
+- **Database**:  
+  - MongoDB (hosted on MongoDB Atlas)
+
+## Installation
+
+1. **Clone the Repositories**:
+
+   - **Frontend**:
+     ```bash
+     git clone https://github.com/himanshuV09/xenonfe
+     cd xenonfe
+     ```
+
+   - **Backend**:
+     ```bash
+     git clone https://github.com/himanshuV09/xenonbe
+     cd xenonbe
+     ```
+
+2. **Install Dependencies**:
+
+   - **Backend**:
+     ```bash
+     npm install
+     ```
+     
+   - **Frontend**:
+     ```bash
+     npm install
+     ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the backend directory with the following values:
+   
+   ```env
+   MONGO_URI=<your-mongodb-atlas-uri>
+   PORT=<PORT_NUMBER>
+   JWT_SECRET=<your-secret-key>
+   ```
+
+4. **Start the Development Servers**:
+
+   - **Backend**:
+     ```bash
+     npm start
+     ```
+     
+   - **Frontend**:
+     ```bash
+     npm start
