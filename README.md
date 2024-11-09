@@ -21,4 +21,4 @@ This project is a luxury estate information platform where users can explore var
   - MongoDB (MongoDB Atlas for cloud hosting)
   
 - *Deployment*: 
-  - Hosted on [Vercel](https://xs-fe.vercel.app) (frontend)
+  - Hosted on [Vercel](https://xenonfe.vercel.app/) (frontend)
