@@ -8,7 +8,6 @@ import { mainrouter } from './app/routes/routes.js';
 const PORT = process.env.PORT;
 export const app = express();
 
-// app.use(cors())
 app.use(
 	cors({
 		origin: 'https://xenonfe.vercel.app/',
