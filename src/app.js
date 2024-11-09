@@ -10,7 +10,7 @@ export const app = express();
 
 app.use(
 	cors({
-		origin: 'https://xenonfe.vercel.app/',
+		origin: 'https://xenonfe.vercel.app',
 		optionsSuccessStatus: 200,
 		preflightContinue: false,
 		methods: 'GET,POST,OPTIONS',
