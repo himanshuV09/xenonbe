@@ -8,15 +8,16 @@ import { mainrouter } from './app/routes/routes.js';
 const PORT = process.env.PORT;
 export const app = express();
 
-app.use(
-	cors({
-		origin: 'https://xenonfe-himanshuv09s-projects.vercel.app',
-		optionsSuccessStatus: 200,
-		preflightContinue: false,
-		methods: 'GET,POST,OPTIONS',
-		credentials: true,
-	})
-);
+app.use(cors())
+// app.use(
+// 	cors({
+// 		origin: 'https://xs-fe.vercel.app',
+// 		optionsSuccessStatus: 200,
+// 		preflightContinue: false,
+// 		methods: 'GET,POST,OPTIONS',
+// 		credentials: true,
+// 	})
+// );
 
 app.use(express.json());
 app.use(urlencoded({ extended: true }));
